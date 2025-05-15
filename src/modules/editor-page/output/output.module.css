@@ -1,0 +1,11 @@
+.outputBar {
+  color: darkslategrey;
+  border: none;
+  padding: 10px 16px;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  width: 100%;
+}

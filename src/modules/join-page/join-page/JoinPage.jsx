@@ -1,6 +1,6 @@
-import styles from './../css/join-page.module.css';
-import NewSessionBtn from './NewSessionBtn';
-import JoinSessionBtn from './JoinSessionBtn';
+import styles from './join-page.module.css'
+import NewSessionBtn from '../new-session-btn/NewSessionBtn';
+import JoinSessionBtn from '../join-session-btn/JoinSessionBtn';
 
 
 const JoinPage = () => (

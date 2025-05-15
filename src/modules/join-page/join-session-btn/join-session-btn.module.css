@@ -1,0 +1,17 @@
+.codeInput {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.joinBtn {
+  padding: 10px 16px;
+  border: none;
+  background: none;
+  color: #a0a0a0;
+  font-size: 1rem;
+  cursor: pointer;
+}

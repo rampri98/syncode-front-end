@@ -1,5 +1,5 @@
-import JoinPage from './modules/join-page/components/JoinPage'
-import EditorPage from './modules/editor-page/components/EditorPage'
+import JoinPage from './modules/join-page/join-page/JoinPage'
+import EditorPage from './modules/editor-page/editor-page/EditorPage'
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<JoinPage />} />
-        <Route path="/join/:id" element={<EditorPage />} />
+        <Route path="/:id" element={<EditorPage />} />
       </Routes>
     </>
   );
