@@ -3,7 +3,7 @@ import styles from './new-session-btn.module.css';
 import { useNavigate } from 'react-router-dom';
 
 
-const NewSessionBtn = () => {
+const NewSessionBtn = ({setLoading}) => {
     
     const [open, setOpen] = useState(false);
     const dropdownRef = useRef();
@@ -36,6 +36,7 @@ const NewSessionBtn = () => {
     ];
 
     const handleClick= (id) => {
+        setLoading(true);
         navigate(`/12345`);
     }
 
